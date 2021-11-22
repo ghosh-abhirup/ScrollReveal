@@ -91,3 +91,19 @@ section {
 .icon:hover {
   transform: translate(0px, -10px);
 }
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 80px;
+  font-weight: 500;
+}
+
+.info {
+  width: 700px;
+  padding: 40px;
+}
+
+.content .info h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
