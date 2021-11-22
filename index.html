@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scroll Landing Page</title>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -87,6 +87,26 @@
             </div>
         </div>
     </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.title, .section-title', { delay: 300, origin: 'left' });
+        ScrollReveal().reveal('.sec-01 .image', { delay: 300, origin: 'bottom' });
+        ScrollReveal().reveal('.text-box', { delay: 300, origin: 'right' });
+        ScrollReveal().reveal('.media-icons i', { delay: 300, origin: 'bottom', interval: 200 });
+
+        ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 300, origin: 'top' });
+        ScrollReveal().reveal('.info', { delay: 300, origin: 'right' });
+
+        ScrollReveal().reveal('.media-info li', { delay: 300, origin: 'left', interval: 200 });
+    </script>
+
 </body>
 
 </html>
