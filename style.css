@@ -99,11 +99,34 @@ section {
 }
 
 .info {
-  width: 700px;
+  width: 700px; 
   padding: 40px;
 }
 
 .content .info h3 {
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.media-info{
+    list-style: none;
+    font-size: 1.2em;
+    width: 400px;
+}
+
+.media-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.media-info li:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.media-info li:nth-child(1), .media-info li:nth-child(5){
+    padding-left: 100px;
+}
+
+.media-info li:nth-child(2), .media-info li:nth-child(4){
+    padding-left: 50px;
 }
